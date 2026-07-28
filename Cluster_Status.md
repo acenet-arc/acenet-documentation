@@ -16,8 +16,8 @@ Clusters
 
 | Cluster | Status | Planned Outage | Notes |
 | -------- | -------- | -------- | -------- |
-| [Argo](Argo.html "Argo") | <span style="color:red">**Offline**</span> | [\-](Cluster_Status.html#Outage_schedule "Cluster Status") | [unplanned outage](Cluster_Status#argo "Argo") |
-| [Siku](Siku.html "Siku") | <span style="color:green">**Online**</span> | [No outages](Cluster_Status.html#Outage_schedule "Cluster Status") | [\-](Cluster_Status#siku "Siku") |
+| [Argo](Argo "Argo") | <span style="color:red">**Offline**</span> | [\-](Cluster_Status#Outage_schedule "Cluster Status") | [unplanned outage](Cluster_Status#argo "Argo") |
+| [Siku](Siku "Siku") | <span style="color:green">**Online**</span> | [No outages](Cluster_Status#Outage_schedule "Cluster Status") | [\-](Cluster_Status#siku "Siku") |
 
 For national clusters (Arbutus, Fir, Narval, Nibi, Rorqual, Trillium) see [status.alliancecan.ca](https://status.alliancecan.ca/)
 
@@ -26,10 +26,10 @@ Services
 
 | Service | Status | Planned Outage | Notes |
 | -------- | -------- | -------- | -------- |
-| Globus at Argo | <span style="color:green">**Online**</span> | [\-](Cluster_Status.html#Outage_schedule "Cluster Status") | \- |
-| Globus at Siku | <span style="color:green">**Online**</span> | [\-](Cluster_Status.html#Outage_schedule "Cluster Status") | Academic users only |
-| [Account creation](Get_an_Account.html "Get an Account") | <span style="color:orange">**Manual**</span> | [No outages](Cluster_Status.html#Outage_schedule "Cluster Status") | [Write support](Ask_Support.html "Ask Support") |
-| PGI and Intel licenses | <span style="color:green">**Online**</span> | [No outages](Cluster_Status.html#Outage_schedule "Cluster Status") | \- |
+| Globus at Argo | <span style="color:green">**Online**</span> | [\-](Cluster_Status#Outage_schedule "Cluster Status") | \- |
+| Globus at Siku | <span style="color:green">**Online**</span> | [\-](Cluster_Status#Outage_schedule "Cluster Status") | Academic users only |
+| [Account creation](Get_an_Account "Get an Account") | <span style="color:orange">**Manual**</span> | [No outages](Cluster_Status#Outage_schedule "Cluster Status") | [Write support](Ask_Support "Ask Support") |
+| PGI and Intel licenses | <span style="color:green">**Online**</span> | [No outages](Cluster_Status#Outage_schedule "Cluster Status") | \- |
 
 **Legend:**
 
@@ -99,6 +99,4 @@ Placentia
 Nefelibata
 ----------
 
-*   Nefelibata has been retired from service
-
-2025-10-01
+*   Nefelibata has been retired from service as of 2025-10-01
