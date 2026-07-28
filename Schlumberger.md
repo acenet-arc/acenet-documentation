@@ -16,20 +16,14 @@ Modulefiles
     * `eclipse-sim/2025.1`
     * `intersect/2025.1`
 
-## Contents
-
-1. [Getting Access](#getting-access)
-1. [Notes](#notes)
-1. [Running Eclipse Simulator](#running-eclipse-simulator)
-    1. [Generic e300 serial job](#generic-e300-serial-job)
-    1. [Generic e300 parallel job](#generic-e300-parallel-job)
-    1. [Running 2MM Benchmark on 40 cores-per-node](#running-2mm-benchmark-on-40-cores-per-node)
-    1. [Restarting Eclipse/E300 simulations](#restarting-eclipse/300-simulations)
-1. [Running Intersect Simulator](#running-intersect-simulator)
-    1. [Migrator](#migrator)
-    1. [Generic Intersect job (parallel)](#generic-intersect-job-(parallel))
-1. [Petrel](#petrel)
-
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
 ## Getting Access
 
@@ -170,9 +164,9 @@ In order to restart an ECLIPSE/E300 simulation the
 `SIMULATION_NAME.DATA` needs to be edited as follows:
 
 1. The statement `INCLUDE SIMULATION_NAME.INC` in the section
-   `SOLUTION` needs to be replaced by `RESTART SIMULATION_NAME iiii`, where
-   `iiii` is the ID of the restart file that is supposed to be used (the
-   largest number for which `SIMULATION_NAME.Xiiii` and
+   `SOLUTION` needs to be replaced by `RESTART SIMULATION_NAME iiii`, 
+   where `iiii` is the ID of the restart file that is supposed to be used
+   (the largest number for which `SIMULATION_NAME.Xiiii` and
    `SIMULATION_NAME.Siiii` exist), for example `0005`.
 
 2. The statement `SKIPREST` needs to be added to the `SCHEDULE` section.
