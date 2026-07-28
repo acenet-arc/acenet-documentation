@@ -18,12 +18,16 @@ and Physical Oceanography. He is now the Dean of Science at the University of Ma
 
 ## Cluster Availability Dates
 
--   [Placentia](Placentia "Placentia") Jun/06
--   Brasdor Jul/06
--   [Mahone](Mahone "Mahone") Aug/06
--   [Fundy](Fundy "Fundy") May/07
--   [Glooscap](Glooscap "Glooscap") Oct/08
--   Courtenay Dec/08
+| Cluster Name | commissioned  | Status                                         |
+|--------------|---------------|------------------------------------------------|
+| Placentia    | June 2006     | decommissioned: March 2019 (restricted access) |
+| Brasdor      | July 2006     | decommissioned: February 2014                  |
+| Mahone       | August 2006   | decommissioned: March 2018                     |
+| Fundy        | May 2007      | decommissioned: March 2018                     |
+| Glooscap     | October 2008  | decommissioned: March 2019                     |
+| Cortenay     | December 2008 | decommissioned: March 2014                     |
+| Siku         | December 2019 | active (for academic users in Atlantic Canada and paying industry clients) |
+| Argo         | January 2024  | active (for groups with contributed hardware)  |
 
 ## Timeline
 
