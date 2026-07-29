@@ -81,6 +81,9 @@ Argo
     Access to Argo was restored Tuesday evening and as of 10 am this morning m most nodes are online again.
     Some nodes (unfortunately including all GPU nodes) are still offline until we can fix issues with one rack's switch.  
     _Wednesday, July 29, 10:00 NDT_
+    **UPDATE 2**:  
+    All Argo nodes are now available again.
+    _Wednesday, July 29, 12:00 NDT_
 
 *   **Siku** and **Argo** were experiencing issues with the external network connection on June 3rd and 4th, 2026. This caused degraded performance as well as several dropped connections on Wedensday June 3rd. We believe these issues have now been fully resolved.
     
