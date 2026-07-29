@@ -16,8 +16,8 @@ Clusters
 
 | Cluster | Status | Planned Outage | Notes |
 | -------- | -------- | -------- | -------- |
-| [Argo](Argo "Argo") | <span style="color:red">**Offline**</span> | [\-](Cluster_Status#Outage_schedule "Cluster Status") | [unplanned outage](Cluster_Status#argo "Argo") |
-| [Siku](Siku "Siku") | <span style="color:green">**Online**</span> | [No outages](Cluster_Status#Outage_schedule "Cluster Status") | [\-](Cluster_Status#siku "Siku") |
+| [Argo](Argo "Argo") | <span style="color:green">**Online**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | [outage resolved](Cluster_Status#argo "Argo") |
+| [Siku](Siku "Siku") | <span style="color:green">**Online**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | [\-](Cluster_Status#siku "Siku") |
 
 For national clusters (Arbutus, Fir, Narval, Nibi, Rorqual, Trillium) see [status.alliancecan.ca](https://status.alliancecan.ca/)
 
@@ -28,8 +28,8 @@ Services
 | -------- | -------- | -------- | -------- |
 | Globus at Argo | <span style="color:green">**Online**</span> | [\-](Cluster_Status#Outage_schedule "Cluster Status") | \- |
 | Globus at Siku | <span style="color:green">**Online**</span> | [\-](Cluster_Status#Outage_schedule "Cluster Status") | Academic users only |
-| [Account creation](Get_an_Account "Get an Account") | <span style="color:orange">**Manual**</span> | [No outages](Cluster_Status#Outage_schedule "Cluster Status") | [Write support](Ask_Support "Ask Support") |
-| PGI and Intel licenses | <span style="color:green">**Online**</span> | [No outages](Cluster_Status#Outage_schedule "Cluster Status") | \- |
+| [Account creation](Get_an_Account "Get an Account") | <span style="color:orange">**Manual**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | [Write support](Ask_Support "Ask Support") |
+| PGI and Intel licenses | <span style="color:green">**Online**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | \- |
 
 **Legend:**
 
@@ -74,10 +74,14 @@ Argo
 #### 2026
 
 *   **Argo** is currently offline due to an unplanned outage at the data centre. The outage started around 7 am NDT (09h30 UTC).
-    We are still investigating the situation and will provide updates once we know more.
-    
+    We are still investigating the situation and will provide updates once we know more.  
     _Tuesday, July 28, 2026, 10:00 NDT_
     
+    **UPDATE 1**:  
+    Access to Argo was restored Tuesday evening and as of 10 am this morning m most nodes are online again.
+    Some nodes (unfortunately including all GPU nodes) are still offline until we can fix issues with one rack's switch.  
+    _Wednesday, July 29, 10:00 NDT_
+
 *   **Siku** and **Argo** were experiencing issues with the external network connection on June 3rd and 4th, 2026. This caused degraded performance as well as several dropped connections on Wedensday June 3rd. We believe these issues have now been fully resolved.
     
     _Thursday, June 5, 2026, 16:00 NDT_
