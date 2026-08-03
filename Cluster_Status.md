@@ -16,7 +16,7 @@ Clusters
 
 | Cluster | Status | Planned Outage | Notes |
 | -------- | -------- | -------- | -------- |
-| [Argo](Argo "Argo") | <span style="color:red">**Offine**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | [unplanned outage](Cluster_Status#argo "Argo") |
+| [Argo](Argo "Argo") | <span style="color:green">**Online**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | [outage resolved](Cluster_Status#argo "Argo") |
 | [Siku](Siku "Siku") | <span style="color:green">**Online**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | [\-](Cluster_Status#siku "Siku") |
 
 For national clusters (Arbutus, Fir, Narval, Nibi, Rorqual, Trillium) see [status.alliancecan.ca](https://status.alliancecan.ca/)
@@ -77,23 +77,25 @@ Argo
     We are in the process of bringing Argo back into service and will provide updates once we know more.  
     _Monday, August 3, 2026, 10:45 NDT_
     
+    **Update**:  
+    Access to Argo has been restored and all compute nodes are online again. We will continue investigating the root-cause of these outages.  
+    _Monday, August 3, 2026, 13:15 NDT_
 
 *   **Argo** is currently offline due to an unplanned outage at the data centre. The outage started around 7 am NDT (09h30 UTC).
     We are still investigating the situation and will provide updates once we know more.  
     _Tuesday, July 28, 2026, 10:00 NDT_
     
-    **UPDATE 1**:  
+    **Update 1**:  
     Access to Argo was restored Tuesday evening and as of 10 am this morning m most nodes are online again.
     Some nodes (unfortunately including all GPU nodes) are still offline until we can fix issues with one rack's switch.  
     _Wednesday, July 29, 10:00 NDT_
     
-    **UPDATE 2**:  
+    **Update 2**:  
     All Argo nodes are now available again.  
     _Wednesday, July 29, 12:00 NDT_
     
 
-*   **Siku** and **Argo** were experiencing issues with the external network connection on June 3rd and 4th, 2026. This caused degraded performance as well as several dropped connections on Wedensday June 3rd. We believe these issues have now been fully resolved.
-    
+*   **Siku** and **Argo** were experiencing issues with the external network connection on June 3rd and 4th, 2026. This caused degraded performance as well as several dropped connections on Wedensday June 3rd. We believe these issues have now been fully resolved.  
     _Thursday, June 5, 2026, 16:00 NDT_
     
 *   **Argo's** internet connection was unavailable on Saturday, May 30th, 2026 while electrical work was being carried out in the Henrietta Harvey building of Memorial University. Running jobs were not affected but the submission of new jobs as well as data-transfer was not possible during that time.
@@ -102,7 +104,7 @@ Argo
     
     **NOTE:** This outage has been postponed from Mon, Jan 26 to Thu, Jan 29 at noon.
     
-    _**UPDATE** Thu Jan 29, 17h45 NST_: The maintenance was completed successfully and most nodes are back in service. We will bring the remaining nodes online over the next few days.
+    _**Update** Thu Jan 29, 17h45 NST_: The maintenance was completed successfully and most nodes are back in service. We will bring the remaining nodes online over the next few days.
     
 
 Placentia
