@@ -16,7 +16,7 @@ Clusters
 
 | Cluster | Status | Planned Outage | Notes |
 | -------- | -------- | -------- | -------- |
-| [Argo](Argo "Argo") | <span style="color:green">**Online**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | [outage resolved](Cluster_Status#argo "Argo") |
+| [Argo](Argo "Argo") | <span style="color:red">**Offline**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | [unplanned outage](Cluster_Status#argo "Argo") |
 | [Siku](Siku "Siku") | <span style="color:green">**Online**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | [\-](Cluster_Status#siku "Siku") |
 
 For national clusters (Arbutus, Fir, Narval, Nibi, Rorqual, Trillium) see [status.alliancecan.ca](https://status.alliancecan.ca/)
@@ -72,6 +72,10 @@ Argo
 ----
 
 #### 2026
+
+*   **Argo** is currently offline to facilitate urgent repairs to the battery-backup in the data-centre in which Argo is hosted.
+    We expect that this will prevent further unplanned power-outages to Argo caused by the faulty part in the battery backup.  
+    _Thursday, August 6, 2026, 14:00 NDT_
 
 *   **Argo** is currently offline due to an unplanned outage at the data centre. The outage started yesterday, Sunday, August 2nd, around 4.30 am NDT (19h00 UTC).
     We are in the process of bringing Argo back into service and will provide updates once we know more.  
