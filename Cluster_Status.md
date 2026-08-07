@@ -16,7 +16,7 @@ Clusters
 
 | Cluster | Status | Planned Outage | Notes |
 | -------- | -------- | -------- | -------- |
-| [Argo](Argo "Argo") | <span style="color:green">**Online**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | [outage resolved](Cluster_Status#argo "Argo") |
+| [Argo](Argo "Argo") | <span style="color:green">**Online**</span> | [planned UPS maintenance](Cluster_Status#Outage_schedule "Cluster Status") | [\-](Cluster_Status#argo "Argo") |
 | [Siku](Siku "Siku") | <span style="color:green">**Online**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | [\-](Cluster_Status#siku "Siku") |
 
 For national clusters (Arbutus, Fir, Narval, Nibi, Rorqual, Trillium) see [status.alliancecan.ca](https://status.alliancecan.ca/)
@@ -42,7 +42,10 @@ Outage schedule {#Outage_schedule}
 
 Jobs will not be scheduled with a run time (`--time=`) that extends into the beginning of a planned outage period. This is so the job will not be terminated prematurely when the system goes down.
 
-*   There are currently no planned outages.
+*   Additional maintenance to **Argo**'s battery-backup (UPS) is planned for early in the week of August 10th.
+    We will share more information once we have a better understanding of the timeline.
+
+<!-- *   There are currently no planned outages. -->
 
 Siku
 ----
@@ -73,14 +76,17 @@ Argo
 
 #### 2026
 
+*   Further maintenance of **Argo**'s battery-backup (UPS) is required and we are preparing for another outage early in the week of August 10th.
+    We will share more information once we have a better understanding of the timeline.  
+    _Friday, August 7, 2026, 12:00 NDT_
+
 *   **Argo** is currently offline to facilitate urgent repairs to the battery-backup in the data-centre in which Argo is hosted, 
     order to prevent further unplanned power-outages to Argo caused by a fault in the battery backup (UPS).  
     _Thursday, August 6, 2026, 14:00 NDT_
 
     **Update 1**:  
     Access to Argo has been restored and compute nodes are online again.  
-    _Monday, August 6, 2026, 15:30 NDT_
-
+    _Thursday, August 6, 2026, 15:30 NDT_
 
 *   **Argo** is currently offline due to an unplanned outage at the data centre. The outage started yesterday, Sunday, August 2nd, around 4.30 am NDT (19h00 UTC).
     We are in the process of bringing Argo back into service and will provide updates once we know more.  
