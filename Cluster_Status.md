@@ -16,7 +16,7 @@ Clusters
 
 | Cluster | Status | Planned Outage | Notes |
 | -------- | -------- | -------- | -------- |
-| [Argo](Argo "Argo") | <span style="color:green">**Online**</span> | [Tuesday, Aug 11, 9am](Cluster_Status#Outage_schedule "Cluster Status") | [UPS maintenance](Cluster_Status#argo "Argo") |
+| [Argo](Argo "Argo") | <span style="color:red">**Offline**</span> | [Tuesday, Aug 11, 9am](Cluster_Status#Outage_schedule "Cluster Status") | [UPS maintenance](Cluster_Status#argo "Argo") |
 | [Siku](Siku "Siku") | <span style="color:green">**Online**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | [\-](Cluster_Status#siku "Siku") |
 
 For national clusters (Arbutus, Fir, Narval, Nibi, Rorqual, Trillium) see [status.alliancecan.ca](https://status.alliancecan.ca/)
@@ -26,7 +26,7 @@ Services
 
 | Service | Status | Planned Outage | Notes |
 | -------- | -------- | -------- | -------- |
-| Globus at Argo | <span style="color:green">**Online**</span> | [\-](Cluster_Status#Outage_schedule "Cluster Status") | \- |
+| Globus at Argo | <span style="color:red">**Offline**</span> | [\-](Cluster_Status#Outage_schedule "Cluster Status") | [UPS maintenance](Cluster_Status#argo "Argo") |
 | Globus at Siku | <span style="color:green">**Online**</span> | [\-](Cluster_Status#Outage_schedule "Cluster Status") | Academic users only |
 | [Account creation](Get_an_Account "Get an Account") | <span style="color:orange">**Manual**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | [Write support](Ask_Support "Ask Support") |
 | PGI and Intel licenses | <span style="color:green">**Online**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | \- |
