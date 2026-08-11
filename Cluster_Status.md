@@ -16,7 +16,7 @@ Clusters
 
 | Cluster | Status | Planned Outage | Notes |
 | -------- | -------- | -------- | -------- |
-| [Argo](Argo "Argo") | <span style="color:red">**Offline**</span> | [Tuesday, Aug 11, 9am](Cluster_Status#Outage_schedule "Cluster Status") | [UPS maintenance](Cluster_Status#argo "Argo") |
+| [Argo](Argo "Argo") | <span style="color:green">**Online**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | [\-](Cluster_Status#argo "Argo") |
 | [Siku](Siku "Siku") | <span style="color:green">**Online**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | [\-](Cluster_Status#siku "Siku") |
 
 For national clusters (Arbutus, Fir, Narval, Nibi, Rorqual, Trillium) see [status.alliancecan.ca](https://status.alliancecan.ca/)
@@ -26,7 +26,7 @@ Services
 
 | Service | Status | Planned Outage | Notes |
 | -------- | -------- | -------- | -------- |
-| Globus at Argo | <span style="color:red">**Offline**</span> | [\-](Cluster_Status#Outage_schedule "Cluster Status") | [UPS maintenance](Cluster_Status#argo "Argo") |
+| Globus at Argo | <span style="color:green">**Online**</span> | [\-](Cluster_Status#Outage_schedule "Cluster Status") | [\-](Cluster_Status#argo "Argo") |
 | Globus at Siku | <span style="color:green">**Online**</span> | [\-](Cluster_Status#Outage_schedule "Cluster Status") | Academic users only |
 | [Account creation](Get_an_Account "Get an Account") | <span style="color:orange">**Manual**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | [Write support](Ask_Support "Ask Support") |
 | PGI and Intel licenses | <span style="color:green">**Online**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | \- |
@@ -42,8 +42,7 @@ Outage schedule {#Outage_schedule}
 
 Jobs will not be scheduled with a run time (`--time=`) that extends into the beginning of a planned outage period. This is so the job will not be terminated prematurely when the system goes down.
 
-*   Additional maintenance to **Argo**'s battery-backup (UPS) is planned for Tuesday, August 11, starting at 9am NDT.
-    We expect to have Argo online again by the end of the same day.
+*   There are currently no planned outages.
 
 <!-- *   There are currently no planned outages. -->
 
@@ -79,6 +78,11 @@ Argo
 *   On Tuesday, August 11th starting at 9am **Argo**'s will be offline to allow for urgent additional maintenance of the data centre's battery-backup (UPS).
     We expect to have Argo online again by the end of the same day.  
     **Updated**: _Monday, August 10, 2026, 16:30 NDT_  (initially posted: _Friday, August 7, 2026, 12:00 NDT_,)
+    
+    **Update 1**:  
+    Access to Argo has been restored and compute nodes are online again.  
+    _Tuesday, August 11, 2026, 14:00 NDT_
+
 
 *   **Argo** is currently offline to facilitate urgent repairs to the battery-backup in the data-centre in which Argo is hosted, 
     order to prevent further unplanned power-outages to Argo caused by a fault in the battery backup (UPS).  
