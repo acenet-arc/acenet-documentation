@@ -16,8 +16,8 @@ Clusters
 
 | Cluster | Status | Planned Outage | Notes |
 | -------- | -------- | -------- | -------- |
-| [Argo](Argo.html "Argo") | <span style="color:green">**Online**</span> | [No outages](Cluster_Status.html#Outage_schedule "Cluster Status") | \- |
-| [Siku](Siku.html "Siku") | <span style="color:green">**Online**</span> | [No outages](Cluster_Status.html#Outage_schedule "Cluster Status") | \- |
+| [Argo](Argo "Argo") | <span style="color:green">**Online**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | [\-](Cluster_Status#argo "Argo") |
+| [Siku](Siku "Siku") | <span style="color:green">**Online**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | [\-](Cluster_Status#siku "Siku") |
 
 For national clusters (Arbutus, Fir, Narval, Nibi, Rorqual, Trillium) see [status.alliancecan.ca](https://status.alliancecan.ca/)
 
@@ -26,10 +26,10 @@ Services
 
 | Service | Status | Planned Outage | Notes |
 | -------- | -------- | -------- | -------- |
-| Globus at Argo | <span style="color:green">**Online**</span> | [\-](Cluster_Status.html#Outage_schedule "Cluster Status") | \- |
-| Globus at Siku | <span style="color:green">**Online**</span> | [\-](Cluster_Status.html#Outage_schedule "Cluster Status") | Academic users only |
-| [Account creation](Get_an_Account.html "Get an Account") | <span style="color:orange">**Manual**</span> | [No outages](Cluster_Status.html#Outage_schedule "Cluster Status") | [Write support](Ask_Support.html "Ask Support") |
-| PGI and Intel licenses | <span style="color:green">**Online**</span> | [No outages](Cluster_Status.html#Outage_schedule "Cluster Status") | \- |
+| Globus at Argo | <span style="color:green">**Online**</span> | [\-](Cluster_Status#Outage_schedule "Cluster Status") | [\-](Cluster_Status#argo "Argo") |
+| Globus at Siku | <span style="color:green">**Online**</span> | [\-](Cluster_Status#Outage_schedule "Cluster Status") | Academic users only |
+| [Account creation](Get_an_Account "Get an Account") | <span style="color:orange">**Manual**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | [Write support](Ask_Support "Ask Support") |
+| PGI and Intel licenses | <span style="color:green">**Online**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | \- |
 
 **Legend:**
 
@@ -43,6 +43,8 @@ Outage schedule {#Outage_schedule}
 Jobs will not be scheduled with a run time (`--time=`) that extends into the beginning of a planned outage period. This is so the job will not be terminated prematurely when the system goes down.
 
 *   There are currently no planned outages.
+
+<!-- *   There are currently no planned outages. -->
 
 Siku
 ----
@@ -73,8 +75,55 @@ Argo
 
 #### 2026
 
-*   **Siku** and **Argo** were experiencing issues with the external network connection on June 3rd and 4th, 2026. This caused degraded performance as well as several dropped connections on Wedensday June 3rd. We believe these issues have now been fully resolved.
+*   On Tuesday, August 11th starting at 9am **Argo**'s will be offline to allow for urgent additional maintenance of the data centre's battery-backup (UPS).
+    We expect to have Argo online again by the end of the same day.  
+    **Updated**: _Monday, August 10, 2026, 16:30 NDT_  (initially posted: _Friday, August 7, 2026, 12:00 NDT_,)
     
+    **Update 1**:  
+    Access to Argo has been restored and compute nodes are online again.  
+    _Tuesday, August 11, 2026, 14:00 NDT_
+
+
+*   **Argo** is currently offline to facilitate urgent repairs to the battery-backup in the data-centre in which Argo is hosted, 
+    order to prevent further unplanned power-outages to Argo caused by a fault in the battery backup (UPS).  
+    _Thursday, August 6, 2026, 14:00 NDT_
+
+    **Update 1**:  
+    Access to Argo has been restored and compute nodes are online again.  
+    _Thursday, August 6, 2026, 15:30 NDT_
+
+*   **Argo** is currently offline due to an unplanned outage at the data centre. The outage started yesterday, Sunday, August 2nd, around 4.30 am NDT (19h00 UTC).
+    We are in the process of bringing Argo back into service and will provide updates once we know more.  
+    _Monday, August 3, 2026, 10:45 NDT_
+    
+    **Update 1**:  
+    Access to Argo has been restored and all compute nodes are online again. We will continue investigating the root-cause of these outages.  
+    _Monday, August 3, 2026, 13:15 NDT_
+    
+    **Update 2**:  
+    Argo is down again. We are investigating again.  
+    _Monday, August 3, 2026, 15:00 NDT_
+
+    **Update 3**:  
+    Argo is available again. We've identified a problem with the battery-backup in Argo's data-centre and working to get it fixed.  
+    _Monday, August 3, 2026, 17:00 NDT_
+
+
+*   **Argo** is currently offline due to an unplanned outage at the data centre. The outage started around 7 am NDT (09h30 UTC).
+    We are still investigating the situation and will provide updates once we know more.  
+    _Tuesday, July 28, 2026, 10:00 NDT_
+    
+    **Update 1**:  
+    Access to Argo was restored Tuesday evening and as of 10 am this morning m most nodes are online again.
+    Some nodes (unfortunately including all GPU nodes) are still offline until we can fix issues with one rack's switch.  
+    _Wednesday, July 29, 10:00 NDT_
+    
+    **Update 2**:  
+    All Argo nodes are now available again.  
+    _Wednesday, July 29, 12:00 NDT_
+    
+
+*   **Siku** and **Argo** were experiencing issues with the external network connection on June 3rd and 4th, 2026. This caused degraded performance as well as several dropped connections on Wedensday June 3rd. We believe these issues have now been fully resolved.  
     _Thursday, June 5, 2026, 16:00 NDT_
     
 *   **Argo's** internet connection was unavailable on Saturday, May 30th, 2026 while electrical work was being carried out in the Henrietta Harvey building of Memorial University. Running jobs were not affected but the submission of new jobs as well as data-transfer was not possible during that time.
@@ -83,7 +132,7 @@ Argo
     
     **NOTE:** This outage has been postponed from Mon, Jan 26 to Thu, Jan 29 at noon.
     
-    _**UPDATE** Thu Jan 29, 17h45 NST_: The maintenance was completed successfully and most nodes are back in service. We will bring the remaining nodes online over the next few days.
+    _**Update** Thu Jan 29, 17h45 NST_: The maintenance was completed successfully and most nodes are back in service. We will bring the remaining nodes online over the next few days.
     
 
 Placentia
@@ -94,6 +143,4 @@ Placentia
 Nefelibata
 ----------
 
-*   Nefelibata has been retired from service
-
-2025-10-01
+*   Nefelibata has been retired from service as of 2025-10-01
