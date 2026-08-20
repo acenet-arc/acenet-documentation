@@ -17,7 +17,7 @@ Clusters
 | Cluster | Status | Planned Outage | Notes |
 | -------- | -------- | -------- | -------- |
 | [Argo](Argo "Argo") | <span style="color:green">**Online**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | [\-](Cluster_Status#argo "Argo") |
-| [Siku](Siku "Siku") | <span style="color:green">**Online**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | [\-](Cluster_Status#siku "Siku") |
+| [Siku](Siku "Siku") | <span style="color:green">**Online**</span> | [Sept. 3, 2026](Cluster_Status#Outage_schedule "Cluster Status") | [infrastructure maintenance](Cluster_Status#siku "Siku") |
 
 For national clusters (Arbutus, Fir, Narval, Nibi, Rorqual, Trillium) see [status.alliancecan.ca](https://status.alliancecan.ca/)
 
@@ -27,7 +27,7 @@ Services
 | Service | Status | Planned Outage | Notes |
 | -------- | -------- | -------- | -------- |
 | Globus at Argo | <span style="color:green">**Online**</span> | [\-](Cluster_Status#Outage_schedule "Cluster Status") | [\-](Cluster_Status#argo "Argo") |
-| Globus at Siku | <span style="color:green">**Online**</span> | [\-](Cluster_Status#Outage_schedule "Cluster Status") | Academic users only |
+| Globus at Siku | <span style="color:green">**Online**</span> | [Sept. 3, 2026](Cluster_Status#Outage_schedule "Cluster Status") | Academic users only |
 | [Account creation](Get_an_Account "Get an Account") | <span style="color:orange">**Manual**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | [Write support](Ask_Support "Ask Support") |
 | PGI and Intel licenses | <span style="color:green">**Online**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | \- |
 
@@ -42,7 +42,7 @@ Outage schedule {#Outage_schedule}
 
 Jobs will not be scheduled with a run time (`--time=`) that extends into the beginning of a planned outage period. This is so the job will not be terminated prematurely when the system goes down.
 
-*   There are currently no planned outages.
+*   Siku will be offline on Thursday, September 3rd starting at 6 am Nfld (08h00 UTC) to allow for maintenance of our infrastructure. We expect Siku be available again later the same day.
 
 <!-- *   There are currently no planned outages. -->
 
@@ -50,6 +50,9 @@ Siku
 ----
 
 #### 2026
+
+*   Siku will be offline on Thursday, September 3rd starting at 6 am Nfld (08h00 UTC) to allow for maintenance of our infrastructure. We expect Siku be available again later the same day.  
+    _Thursday, August 20, 2026, 12:00 NDT_
 
 *   **Siku** and **Argo** were experiencing issues with the external network connection on June 3rd and 4th, 2026. This caused degraded performance as well as several dropped connections on Wedensday June 3rd. We believe these issues have now been fully resolved.
     
