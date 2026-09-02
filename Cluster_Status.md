@@ -16,8 +16,8 @@ Clusters
 
 | Cluster | Status | Planned Outage | Notes |
 | -------- | -------- | -------- | -------- |
-| [Argo](Argo "Argo") | <span style="color:green">**Online**</span> | [Sept. 2, 2026](Cluster_Status#Outage_schedule "Cluster Status") | [Slurm upgrade](Cluster_Status#argo "Argo") |
-| [Siku](Siku "Siku") | <span style="color:green">**Online**</span> | [Sept. 2/3, 2026](Cluster_Status#Outage_schedule "Cluster Status") | [Slurm upgrade & infrastructure maintenance](Cluster_Status#siku "Siku") |
+| [Argo](Argo "Argo") | <span style="color:green">**Online**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | [-](Cluster_Status#argo "Argo") |
+| [Siku](Siku "Siku") | <span style="color:red">**Offline**</span> | [Sept. 2/3, 2026](Cluster_Status#Outage_schedule "Cluster Status") | [Slurm upgrade & infrastructure maintenance](Cluster_Status#siku "Siku") |
 
 For national clusters (Arbutus, Fir, Narval, Nibi, Rorqual, Trillium) see [status.alliancecan.ca](https://status.alliancecan.ca/)
 
@@ -51,21 +51,23 @@ Siku
 ----
 
 #### 2026
-*   Slurm will be upgraded on both **Argo** and **Siku** on the afternoon of Wednesday, September 2nd, starting at about 4pm NDT (18h00 UTC). During that time all login-nodes will be unavailable. At **Siku** this will be followed by the previously announced infrastructure maintenance on the morning of Thursday, September 3rd (see below).  
-    _Tuesday, September 1, 2026, 11:30 NDT_
-
 *   **Siku** will be offline on Thursday, September 3rd starting at 6 am Nfld (08h00 UTC) to allow for maintenance of our infrastructure. We expect Siku be available again later the same day.  
     _Thursday, August 20, 2026, 12:00 NDT_
 
-*   **Siku** and **Argo** were experiencing issues with the external network connection on June 3rd and 4th, 2026. This caused degraded performance as well as several dropped connections on Wedensday June 3rd. We believe these issues have now been fully resolved.
-    
+*   Slurm will be upgraded on both **Argo** and **Siku** on the afternoon of Wednesday, September 2nd, starting at about 4pm NDT (18h00 UTC). During that time all login-nodes will be unavailable. At **Siku** this will be followed by the previously announced infrastructure maintenance on the morning of Thursday, September 3rd (see below).  
+    _Tuesday, September 1, 2026, 11:30 NDT_  
+    **Update**:  
+    Critical security updates for Slurm have been installed, however Siku will remain in offline until we have performed further planned maintenance.  
+    _Wednesday, September 2, 2026, 20:30 NDT_
+
+*   **Siku** and **Argo** were experiencing issues with the external network connection on June 3rd and 4th, 2026. This caused degraded performance as well as several dropped connections on Wednesday June 3rd. We believe these issues have now been fully resolved.  
     _Thursday, June 5, 2026, 16:00 NDT_
-    
-*   **Siku**, was offline May 29-June 1 2026 to facilitate electrical work in the Henrietta Harvey building of Memorial University will required that Siku be shut down on the afternoon of Friday, May 29. This outage has now ended.
-    
+
+*   **Siku**, was offline May 29-June 1 2026 to facilitate electrical work in the Henrietta Harvey building of Memorial University will required that Siku be shut down on the afternoon of Friday, May 29. This outage has now ended.  
     _Monday, June 1, 2026, 16:00 NDT_
-    
+
 *   **Siku** and **Argo**, 2026 May 20-21: GPU nodes were offline while we applied critical security updates to NVidia driver software.
+
 *   Earlier today (Friday, March 27) between 1:30 pm and 3:30 pm NDT (16h00 and 18h00 UTC), we experienced issues with our **/project** filesystem on Siku, that prevented new files from being created.  
     The issues has been resolved and we don't see any jobs that unexpectedly failed due to this. Therefore we assume that no jobs were impacted.
     
@@ -82,7 +84,10 @@ Argo
 #### 2026
 
 *   Slurm will be upgraded on both **Argo** and **Siku** on the afternoon of Wednesday, September 2nd, starting at about 4pm NDT (18h00 UTC). During that time all login-nodes will be unavailable.  
-    _Tuesday, September 1, 2026, 11:30 NDT_
+    _Tuesday, September 1, 2026, 11:30 NDT_  
+    **Update**:  
+    Critical security updates for Slurm have been installed and Argo is back in production.  
+    _Wednesday, September 2, 2026, 20:30 NDT_
 
 *   On Tuesday, August 11th starting at 9am **Argo**'s will be offline to allow for urgent additional maintenance of the data centre's battery-backup (UPS).
     We expect to have Argo online again by the end of the same day.  
