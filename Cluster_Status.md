@@ -17,7 +17,7 @@ Clusters
 | Cluster | Status | Planned Outage | Notes |
 | -------- | -------- | -------- | -------- |
 | [Argo](Argo "Argo") | <span style="color:green">**Online**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | [-](Cluster_Status#argo "Argo") |
-| [Siku](Siku "Siku") | <span style="color:red">**Offline**</span> | [Sept. 2/3, 2026](Cluster_Status#Outage_schedule "Cluster Status") | [Slurm upgrade & infrastructure maintenance](Cluster_Status#siku "Siku") |
+| [Siku](Siku "Siku") | <span style="color:green">**Online**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | [-](Cluster_Status#siku "Siku") |
 
 For national clusters (Arbutus, Fir, Narval, Nibi, Rorqual, Trillium) see [status.alliancecan.ca](https://status.alliancecan.ca/)
 
@@ -26,8 +26,8 @@ Services
 
 | Service | Status | Planned Outage | Notes |
 | -------- | -------- | -------- | -------- |
-| Globus at Argo | <span style="color:green">**Online**</span> | [\-](Cluster_Status#Outage_schedule "Cluster Status") | [\-](Cluster_Status#argo "Argo") |
-| Globus at Siku | <span style="color:green">**Online**</span> | [Sept. 3, 2026](Cluster_Status#Outage_schedule "Cluster Status") | Academic users only |
+| Globus at Argo | <span style="color:green">**Online**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | [-](Cluster_Status#argo "Argo") |
+| Globus at Siku | <span style="color:green">**Online**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | Academic users only |
 | [Account creation](Get_an_Account "Get an Account") | <span style="color:orange">**Manual**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | [Write support](Ask_Support "Ask Support") |
 | PGI and Intel licenses | <span style="color:green">**Online**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | \- |
 
@@ -42,8 +42,7 @@ Outage schedule {#Outage_schedule}
 
 Jobs will not be scheduled with a run time (`--time=`) that extends into the beginning of a planned outage period. This is so the job will not be terminated prematurely when the system goes down.
 
-*   Slurm will be upgraded on both **Argo** and **Siku** on the afternoon of Wednesday, September 2nd, starting at about 4pm NDT (18h00 UTC). During that time all login-nodes will be unavailable.
-*   **Siku** will be offline on Thursday, September 3rd starting at 6 am Nfld (08h00 UTC) to allow for maintenance of our infrastructure. We expect Siku be available again later the same day.
+*   There are currently no planned outages.
 
 <!-- *   There are currently no planned outages. -->
 
@@ -52,9 +51,13 @@ Siku
 
 #### 2026
 *   **Siku** will be offline on Thursday, September 3rd starting at 6 am Nfld (08h00 UTC) to allow for maintenance of our infrastructure. We expect Siku be available again later the same day.  
-    _Thursday, August 20, 2026, 12:00 NDT_
+    _Thursday, August 20, 2026, 12:00 NDT_  
+    **Update**:  
+    The maintenance has been completed and Siku is back in service.  
+    _Thursday, September 3, 2026, 10:20 NDT_
 
-*   Slurm will be upgraded on both **Argo** and **Siku** on the afternoon of Wednesday, September 2nd, starting at about 4pm NDT (18h00 UTC). During that time all login-nodes will be unavailable. At **Siku** this will be followed by the previously announced infrastructure maintenance on the morning of Thursday, September 3rd (see below).  
+*   Slurm will be upgraded on both **Argo** and **Siku** on the afternoon of Wednesday, September 2nd, starting at about 4pm NDT (18h00 UTC). During that time all login-nodes will be unavailable.  
+    At **Siku** this will be followed by the previously announced infrastructure maintenance on the morning of Thursday, September 3rd (see above).  
     _Tuesday, September 1, 2026, 11:30 NDT_  
     **Update**:  
     Critical security updates for Slurm have been installed, however Siku will remain in offline until we have performed further planned maintenance.  
