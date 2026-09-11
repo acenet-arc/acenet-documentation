@@ -52,7 +52,10 @@ Siku
 #### 2026
 *   We are experiencing cooling issues in one of our data-centres and had to put **Siku** into an emergency outage.
     We are working with MUN IT-Services and technicians to evaluate the situation and will post updates accordingly.  
-    _Thursday, September 10, 10:30 NDT_
+    _Thursday, September 10, 10:30 NDT_  
+    **Update 1**:  
+    Siku will remain unavailable until at least Monday mid-morning as technicians are working to make sure that the A/C unit is working order.  
+    _Friday, September 12, 12:38 NDT_  
 
 *   **Siku** will be offline on Thursday, September 3rd starting at 6 am Nfld (08h00 UTC) to allow for maintenance of our infrastructure. We expect Siku be available again later the same day.  
     _Thursday, August 20, 2026, 12:00 NDT_  
