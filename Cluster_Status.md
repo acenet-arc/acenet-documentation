@@ -17,7 +17,7 @@ Clusters
 | Cluster | Status | Planned Outage | Notes |
 | -------- | -------- | -------- | -------- |
 | [Argo](Argo "Argo") | <span style="color:green">**Online**</span> | [-](Cluster_Status#Outage_schedule "Cluster Status") | [-](Cluster_Status#argo "Argo") |
-| [Siku](Siku "Siku") | <span style="color:red">**Offline**</span> | [-](Cluster_Status#Outage_schedule "Cluster Status") | [cooling issues](Cluster_Status#siku "Siku") |
+| [Siku](Siku "Siku") | <span style="color:green">**Online**</span> | [-](Cluster_Status#Outage_schedule "Cluster Status") | [-](Cluster_Status#siku "Siku") |
 
 For national clusters (Arbutus, Fir, Narval, Nibi, Rorqual, Trillium) see [status.alliancecan.ca](https://status.alliancecan.ca/)
 
@@ -56,6 +56,9 @@ Siku
     **Update 1**:  
     Siku will remain unavailable until at least Monday mid-morning as technicians are working to make sure that the A/C unit is working order.  
     _Friday, September 12, 12:38 NDT_  
+    **Update 2**:  
+    The A/C unit has been serviced and is working again. **Siku**'s emergency outage has been concluded and jobs are running again.  
+    _Monday, September 14, 12:30 NDT_  
 
 *   **Siku** will be offline on Thursday, September 3rd starting at 6 am Nfld (08h00 UTC) to allow for maintenance of our infrastructure. We expect Siku be available again later the same day.  
     _Thursday, August 20, 2026, 12:00 NDT_  
