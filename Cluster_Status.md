@@ -54,8 +54,7 @@ Siku
 *   Memorial University has announced this morning, that they are experiencing network connectivity issues affecting the whole campus and are working on resolving them.  
     This may prevent some users from connecting to **Argo** and/or **Siku** (both of which are located on MUN's campus).  
     _Tuesday, October 13, 11:00 NDT_  
-    **Update**:  
-    Memorial University has announced that the network issues have been resolved.
+    **Update**:  Memorial University has announced that the network issues have been resolved.  
     _Tuesday, October 13, 15:00 NDT_  
 
 *   We are experiencing cooling issues in one of our data-centres and had to put **Siku** into an emergency outage.
@@ -107,8 +106,7 @@ Argo
 *   Memorial University has announced this morning, that they are experiencing network connectivity issues affecting the whole campus and are working on resolving them.  
     This may prevent some users from connecting to **Argo** and/or **Siku** (both of which are located on MUN's campus).  
     _Tuesday, October 13, 11:00 NDT_  
-    **Update**:  
-    Memorial University has announced that the network issues have been resolved.
+    **Update**: Memorial University has announced that the network issues have been resolved.  
     _Tuesday, October 13, 15:00 NDT_  
 
 *   Slurm will be upgraded on both **Argo** and **Siku** on the afternoon of Wednesday, September 2nd, starting at about 4pm NDT (18h00 UTC). During that time all login-nodes will be unavailable.  
