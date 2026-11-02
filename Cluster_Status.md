@@ -16,8 +16,8 @@ Clusters
 
 | Cluster | Status | Planned Outage | Notes |
 | -------- | -------- | -------- | -------- |
-| [Argo](Argo "Argo") | <span style="color:green">**Online**</span> | [Wednesday, November 4th, 2026](Cluster_Status#Outage_schedule "Cluster Status") | [short outage of external network](Cluster_Status#argo "Argo") |
-| [Siku](Siku "Siku") | <span style="color:green">**Online**</span> | [Wednesday, November 4th, 2026](Cluster_Status#Outage_schedule "Cluster Status") | [short outage of external network](Cluster_Status#siku "Siku") |
+| [Argo](Argo "Argo") | <span style="color:red">**Offline**</span> | Monday Nov 2, 2026 | external network problem |
+| [Siku](Siku "Siku") | <span style="color:red">**Offline**</span> | Monday Nov 2, 2026 | external network problem |
 
 For national clusters (Arbutus, Fir, Narval, Nibi, Rorqual, Trillium) see [status.alliancecan.ca](https://status.alliancecan.ca/)
 
@@ -42,6 +42,7 @@ Outage schedule {#Outage_schedule}
 
 Jobs will not be scheduled with a run time (`--time=`) that extends into the beginning of a planned outage period. This is so the job will not be terminated prematurely when the system goes down.
 
+*   An unexpected problem with the external network has interrupted access to Siku and Argo, Monday November 2, circa 9am Newfoundland time.  We are investigating.
 *   We expect a short outage of the external network connection for **Siku** and **Argo** on **Wednesday, November 4th** sometime
     between 0:01 and 2:00 am (03h31 to 05h30 UTC).  The outage is expected to only take about 15 minutes within that maintenance
     window.  As a result, we expect SSH-connections and file-transfers to drop as a consequence. Running jobs will _not_ be 
