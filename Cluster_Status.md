@@ -16,8 +16,8 @@ Clusters
 
 | Cluster | Status | Planned Outage | Notes |
 | -------- | -------- | -------- | -------- |
-| [Argo](Argo "Argo") | <span style="color:green">**Online**</span> | [Wednesday, November 4th, 2026](Cluster_Status#Outage_schedule "Cluster Status") | [short outage of external network](Cluster_Status#argo "Argo") |
-| [Siku](Siku "Siku") | <span style="color:green">**Online**</span> | [Wednesday, November 4th, 2026](Cluster_Status#Outage_schedule "Cluster Status") | [short outage of external network](Cluster_Status#siku "Siku") |
+| [Argo](Argo "Argo") | <span style="color:green">**Online**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | [-](Cluster_Status#argo "Argo") |
+| [Siku](Siku "Siku") | <span style="color:green">**Online**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | [-](Cluster_Status#siku "Siku") |
 
 For national clusters (Arbutus, Fir, Narval, Nibi, Rorqual, Trillium) see [status.alliancecan.ca](https://status.alliancecan.ca/)
 
@@ -42,10 +42,7 @@ Outage schedule {#Outage_schedule}
 
 Jobs will not be scheduled with a run time (`--time=`) that extends into the beginning of a planned outage period. This is so the job will not be terminated prematurely when the system goes down.
 
-*   We expect a short outage of the external network connection for **Siku** and **Argo** on **Wednesday, November 4th** sometime
-    between 0:01 and 2:00 am (03h31 to 05h30 UTC).  The outage is expected to only take about 15 minutes within that maintenance
-    window.  As a result, we expect SSH-connections and file-transfers to drop as a consequence. Running jobs will _not_ be 
-    affected by this, because the internal network will not be affected by this maintenance.
+*   There are currently no planned outages.
 
 <!-- *   There are currently no planned outages. -->
 
@@ -53,6 +50,11 @@ Siku
 ----
 
 #### 2026
+
+*   In the early hours of **Wednesday, November 4th** (between 0:01 and 2:00 am / 03h31 to 05h30 UTC), there was a short (~15 minutes) outage of the external network 
+    connection affecting  both **Siku** and **Argo**, during which SSH-connections and file-transfers where dropped. Running jobs were _not_ affected by this, 
+    because the internal network will not be affected by this maintenance.  
+    _Thursday, November 5, 11:00 NST_  
 
 *   Memorial University has announced this morning, that they are experiencing network connectivity issues affecting the whole campus and are working on resolving them.  
     This may prevent some users from connecting to **Argo** and/or **Siku** (both of which are located on MUN's campus).  
@@ -105,6 +107,11 @@ Argo
 ----
 
 #### 2026
+
+*   In the early hours of **Wednesday, November 4th** (between 0:01 and 2:00 am / 03h31 to 05h30 UTC), there was a short (~15 minutes) outage of the external network 
+    connection affecting  both **Siku** and **Argo**, during which SSH-connections and file-transfers where dropped. Running jobs were _not_ affected by this, 
+    because the internal network will not be affected by this maintenance.  
+    _Thursday, November 5, 11:00 NST_  
 
 *   Memorial University has announced this morning, that they are experiencing network connectivity issues affecting the whole campus and are working on resolving them.  
     This may prevent some users from connecting to **Argo** and/or **Siku** (both of which are located on MUN's campus).  
