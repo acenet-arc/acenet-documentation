@@ -16,8 +16,8 @@ Clusters
 
 | Cluster | Status | Planned Outage | Notes |
 | -------- | -------- | -------- | -------- |
-| [Argo](Argo "Argo") | <span style="color:green">**Online**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | [-](Cluster_Status#argo "Argo") |
-| [Siku](Siku "Siku") | <span style="color:green">**Online**</span> | [no outages](Cluster_Status#Outage_schedule "Cluster Status") | [-](Cluster_Status#siku "Siku") |
+| [Argo](Argo "Argo") | <span style="color:green">**Online**</span> | [Dec. 14, 2026](Cluster_Status#Outage_schedule "Cluster Status") | [maintenance](Cluster_Status#argo "Argo") |
+| [Siku](Siku "Siku") | <span style="color:green">**Online**</span> | [Dec. 14, 2026](Cluster_Status#Outage_schedule "Cluster Status") | [maintenance](Cluster_Status#siku "Siku") |
 
 For national clusters (Arbutus, Fir, Narval, Nibi, Rorqual, Trillium) see [status.alliancecan.ca](https://status.alliancecan.ca/)
 
@@ -42,7 +42,9 @@ Outage schedule {#Outage_schedule}
 
 Jobs will not be scheduled with a run time (`--time=`) that extends into the beginning of a planned outage period. This is so the job will not be terminated prematurely when the system goes down.
 
-*   There are currently no planned outages.
+*  On **Monday, December 14** starting at 6:30 am NST (10h00 UTC), there will be a short outage for **Argo** and **Siku** to facilitate maintenance of the backend.
+   We expect that Siku will resume normal operations later the same day.  
+   _Monday, November 16, 12:00 NST_  
 
 <!-- *   There are currently no planned outages. -->
 
